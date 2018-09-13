@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color" format="color" />
+    <attr name="points" format="string"/>
+    <attr name="border" format="integer"/>
+    <attr name="border_color" format="color"/>
+
+    <declare-styleable name="Square">
+        <attr name="color"/>
+        <attr name="border"/>
+        <attr name="border_color"/>
+    </declare-styleable>
+    <declare-styleable name="Rectangle">
+        <attr name="color"/>
+        <attr name="points"/>
+    </declare-styleable>
+    <declare-styleable name="Triangle">
+        <attr name="color"/>
+        <attr name="points"/>
+    </declare-styleable>
+    <declare-styleable name="Circle">
+        <attr name="color"/>
+        <attr name="pivotX" format="float"/>
+        <attr name="pivotY" format="float"/>
+        <attr name="radius" format="float"/>
+        <attr name="border"/>
+        <attr name="border_color"/>
+    </declare-styleable>
+</resources>
