@@ -21,7 +21,8 @@
         <in.mrasif.libs.shapes.Triangle
             android:layout_width="60dp"
             android:layout_height="60dp"
-            app:points="0,0,0,1,1,1"
+            android:layout_marginLeft="10dp"
+            app:points="0.1,0.2,0,0.9,0.5,0.8"
             app:color="#093504"
             />
 
@@ -144,7 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Windows"
+                    android:text="Linux"
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:textColor="#FFF"/>
