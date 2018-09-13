@@ -14,7 +14,7 @@ allprojects {
 Step 2. Add the dependency:
 ```
 dependencies {
-        compile 'com.github.mrasif:shapes-libs:v1.0.0'
+        implementation 'com.github.mrasif:shapes-lib:v1.0.0'
 }
 ```
 ### For Maven:
@@ -31,7 +31,7 @@ Step 2. Add the dependency:
 ```
 <dependency>
     <groupId>com.github.mrasif</groupId>
-    <artifactId>shapes-libs</artifactId>
+    <artifactId>shapes-lib</artifactId>
     <version>v1.0.0</version>
 </dependency>
 ```
@@ -42,7 +42,7 @@ resolvers += "jitpack" at "https://jitpack.io"
 ```
 Step 2. Add the dependency:
 ```
-libraryDependencies += "com.github.mrasif" % "shapes-libs" % "v1.0.0"
+libraryDependencies += "com.github.mrasif" % "shapes-lib" % "v1.0.0"
 ```
 ### For Leiningen:
 Step 1. Add it in your project.clj at the end of repositories:
@@ -51,7 +51,7 @@ Step 1. Add it in your project.clj at the end of repositories:
 ```
 Step 2. Add the dependency:
 ```
-:dependencies [[com.github.mrasif/shapes-libs "v1.0.0"]]
+:dependencies [[com.github.mrasif/shapes-lib "v1.0.0"]]
 ```
 
 ### Add this in your layout xml file:
